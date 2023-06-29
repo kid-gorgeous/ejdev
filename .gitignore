@@ -24,3 +24,5 @@ yarn-error.log*
 
 # documenations
 docu.ipynb
+tmux.ipynb
+tasks.ipynb

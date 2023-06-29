@@ -79,6 +79,15 @@ hr {
   width: 100%;
 }
 
+#curr {
+  width: 50%;
+  height: 250px;
+}
+#prev {
+  width: 50%;
+  height: 250px;
+}
+
 /* This stays static DNT */
 .intro-paragraph {
   font-size: 20px;
