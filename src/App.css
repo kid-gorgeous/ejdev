@@ -1,20 +1,17 @@
 /* --(background-color) = #282c34; */
 
-.App {
-  text-align: center;
+html {
   background-color: #282c34;
 }
 
-.App-logo {
-  height: 8vmin;
-  pointer-events: none;
-  margin-left: -95%;
-  margin-top: .5%;
+.App {
+  display: grid;
+  text-align: center;
 }
 
-
-.App-logo:hover {
-  animation: App-logo-spin infinite 20s linear;
+.App-logo {
+  height: 35px;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,30 +20,80 @@
   }
 }
 
+.App-header {
+  /* border: #61dafb 2px solid; */
+}
+
+.App-header > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  /* border: greenyellow 2px solid; */
+}
+
+.App-header > ul > li {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 21;
+
+  /* border: #61dafb 2px solid; */
+}
+
+.App-header > ul > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .App-body {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
+
   color: white;
 }
 
-.App-Window-img {
-  height: 300px;
+.App-body>a {
+  font-size: 25px;
+}
 
+.App-header>a {
+  font-size: 22px;
+}
+
+.App-Window-img {
+  display: flex;
+  margin-top: 5%;
+  width: 500px;
+  height: 300px;
+}
+
+hr {
+  width: 100%;
+}
+
+/* This stays static DNT */
+.intro-paragraph {
+  font-size: 20px;
 }
 
 .App-link {
   color: #61dafb;
+
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

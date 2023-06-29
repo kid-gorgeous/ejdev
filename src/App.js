@@ -1,36 +1,76 @@
 import mountainside from './mountainside.png';
+import Button from '@mui/material/Button';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
+      {/* This will need centering lol .. I don't actually want to take the time 
+            to fix this issues just yet. */}
+
+
       
+      <nav className="App-header">
+        <ul>
+          {/* In a future prototype this button will open the navbar */}
+          <li><Button variant="image">
+                <img src={logo} className="App-logo" alt="logo" />
+              </Button>
+          </li>
+          {/* These will be encapsulated by the Button until clicked
+                then they will open horizontally right upon click */}
+          <li><a href="#curr">#Current</a></li>
+          <li><a href="#prev">#Previous</a></li>
+        </ul>
+      </nav>
+
+
+      {/* Body class that will carry /most/ of the information */}
       <body className="App-body">
         
-        <div className="App-Window">
+        <section> 
           <img src={mountainside} className="App-Window-img" alt="img-window" />
-        </div>
+          <br></br>
 
-        {/* This idk, I just needed it to be there for right now */}
-        <p>Hello, I am a part-time developer, and full-stime student.  Welcome to my personal profile. </p>
-        
+          {/* This might stay */}
+          {/* This idk, I just needed it to be there for right now */}
+          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-stime student.  
+            <br></br> Welcome to my personal profile. </p>
+          <br></br>
+        </section>
+
+        {/* A container for new information */}
+        <section id='curr'>
+          {/* <h2>Projects</h2> */}
+          <h3>Current focuses</h3>
+          <hr></hr>
+          <p className='current-paragraph'>Currently I am working on a few projects, but the main one is a...</p>
+          <br></br>
+        </section>
+
+        {/* A container for new information */}
+        <section id='prev'>
+          <h3>Previous projects</h3>
+          <hr></hr>
+          <p className='previous-paragraph'>Previously I have worked on a few projects, but the main one is a...</p>  
+        </section>
+
+        {/* A footer for the website */}
         <br></br>
-
-        <a
-          className="App-link"
-          href="https://github.com/kid-gorgeous"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <footer>
+          {/* This is the link to my github */}
+          <a
+            className="App-link"
+            href="https://github.com/kid-gorgeous"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           Learn More
-        </a>
+          </a>
+        </footer>
+
       </body>
-
-
-
     </div>
   );
 }
