@@ -107,3 +107,7 @@ hr {
     transform: rotate(360deg);
   }
 }
+
+footer {
+  padding: 10px;
+}

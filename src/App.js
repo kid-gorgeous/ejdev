@@ -10,37 +10,39 @@ function App() {
             to fix this issues just yet. */}
 
 
-      
+
       <nav className="App-header">
         <ul>
           {/* In a future prototype this button will open the navbar */}
           <li><Button variant="image">
-                <img src={logo} className="App-logo" alt="logo" />
-              </Button>
+            <img src={logo} className="App-logo" alt="logo" />
+          </Button>
           </li>
           {/* These will be encapsulated by the Button until clicked
                 then they will open horizontally right upon click */}
           <li><a href="#curr">#Current</a></li>
           <li><a href="#prev">#Previous</a></li>
+
+
+          {/* <li><a href="engineering-resume.pdf">#Resume</a></li> */}
+          {/* <li><embed src="public/engineering-resume.pdf" width="100%" height="100%"></embed></li> */}
         </ul>
       </nav>
 
 
       {/* Body class that will carry /most/ of the information */}
       <body className="App-body">
-        
-        <section id='header'> 
+
+        <section id='header'>
           <img src={mountainside} className="App-Window-img" alt="img-window" />
           <br></br>
 
           {/* This might stay */}
           {/* This idk, I just needed it to be there for right now */}
-          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-stime student.  
+          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-stime student.
             <br></br> Welcome to my personal profile. </p>
           <br></br>
         </section>
-
-
 
         {/* A container for new information */}
         <section id='curr'>
@@ -48,11 +50,10 @@ function App() {
           <h3>Current focuses</h3>
           <hr></hr>
           <p className='current-paragraph'>
-            Currently I am working on a few projects, but my main concern is acquiring the ability to design, 
-              and verify various software and hardware components in systems whose primary constituent of a modern computer.
-                - 
+            Currently I am working on a few projects, but my main concern is acquiring the ability to design,
+            and verify various software and hardware components in systems whose primary constituent of a modern computer.
+            -
           </p>
-          <br></br>
         </section>
 
         {/* A container for new information */}
@@ -61,8 +62,8 @@ function App() {
           <hr></hr>
           <p className='previous-paragraph'>
             Previously I have worked on a few projects, but the most notable have involved relatively low level programs,
-                terminal REPLs, and basic API development.
-          </p>  
+            terminal REPLs, and basic API development.
+          </p>
         </section>
 
         {/* A footer for the website */}
@@ -75,8 +76,17 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          Learn More
+            Learn More
           </a>
+                
+          {/* <a
+            className="App-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a> */}
         </footer>
 
       </body>
