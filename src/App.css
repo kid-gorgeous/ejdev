@@ -7,7 +7,10 @@ html {
 .App {
   display: grid;
   text-align: center;
+
 }
+
+
 
 .App-logo {
   height: 35px;
@@ -56,6 +59,26 @@ html {
   align-items: center;
   justify-content: center;
   font-size: calc(5px + 2vmin);
+
+  color: white;
+}
+
+#curr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2.5px + vmin);
+
+  color: white;
+}
+
+#prev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2.5px + vmin);
 
   color: white;
 }

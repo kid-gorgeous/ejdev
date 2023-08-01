@@ -9,8 +9,6 @@ function App() {
       {/* This will need centering lol .. I don't actually want to take the time 
             to fix this issues just yet. */}
 
-
-
       <nav className="App-header">
         <ul>
           {/* In a future prototype this button will open the navbar */}
@@ -28,7 +26,6 @@ function App() {
           {/* <li><embed src="public/engineering-resume.pdf" width="100%" height="100%"></embed></li> */}
         </ul>
       </nav>
-
 
       {/* Body class that will carry /most/ of the information */}
       <body className="App-body">
