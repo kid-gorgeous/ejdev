@@ -40,7 +40,7 @@ function App() {
 
           {/* This might stay */}
           {/* This idk, I just needed it to be there for right now */}
-          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-stime student.
+          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-time student.
             <br></br> Welcome to my personal profile. </p>
           <br></br>
         </section>
