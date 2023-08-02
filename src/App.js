@@ -53,12 +53,13 @@ function App() {
               <br></br>
               <br></br>
               I've acquired a few skills in the past few years, and I'm looking to expand my knowledge in the field of computer science, and software engineering.
-              It is a good of mine to work on projects that are both challenging, and rewarding. I've worked on project using a variety of power languages, and frameworks.
-              Some of these include: C, C++, Python, Java, Javascript, Flask, React, and Node.js. I've also worked with a variety of tools, and frameworks such as: Github, and Docker.
+              It is a goal of mine to work on projects that are both challenging, and rewarding. I've worked on projects using a variety of powerful languages, and frameworks.
+              Some of these include: C, C++, Python, Java, Javascript, Flask, React, and Node.js. I've also worked with a variety of tools such as: Github, and Docker.
               <br></br>
               <br></br>
-              My most invested work includes the study of sorting algorithms, divide-and-conquer algorithms, and the design of various data structures. My most notable and recent is 
-              TradeAI; an artificial enhanced analysis tool that allows the user to measure and predict the values of various stock options using a variety of machine learning algorithms.
+              My most invested work includes the study of sorting algorithms, divide-and-conquer algorithms, and the design of various data structures while applying these methods
+              to systemical market data. My most notable and recent is TradeAI; an artificial enhanced analysis tool that allows the user to measure and predict the values of various 
+              stock options using a variety of machine learning algorithms.
               <br></br>
               <br></br>
             </p>
