@@ -65,7 +65,7 @@ html {
   color: white;
 }
 
-.curr, .prev{
+.container-card {
   display: flex;
   width: 60%;
   flex-direction: column;
@@ -99,7 +99,7 @@ html {
 }
 
 hr {
-  width: 70%;
+  width: 80%;
 }
 
 

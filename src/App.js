@@ -31,8 +31,9 @@ function App() {
 
       {/* Body class that will carry /most/ of the information */}
       <body className="container">
-        <div className='text-header'>
-          <img src={mountainside} className="App-Window-img" alt="img-window" />
+        <div className='container-card'>
+          <img src={mountainside} className="App-Window-img"
+          id="home" alt="img-window" />
           <br></br>
           {/* This might stay */}
           {/* This idk, I just needed it to be there for right now */}
@@ -43,7 +44,7 @@ function App() {
         </div>
 
         {/* A container for new information */}
-        <div className='curr'> 
+        <div className='container-card'> 
             {/* <h2>Projects</h2> */}
             <h3>Current focuses</h3>
             <hr></hr>
@@ -67,7 +68,7 @@ function App() {
         </div>
 
         {/* A container for new information */}
-        <div className='prev'>
+        <div className='container-card'>
           <h3>Previous projects</h3>
           <hr></hr>
           <p className='previous-paragraph'>
