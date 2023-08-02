@@ -5,6 +5,8 @@ import './App.css';
 
 function App() {
   return (
+    
+
     <div className="App">
       {/* This will need centering lol .. I don't actually want to take the time 
             to fix this issues just yet. */}
@@ -30,6 +32,8 @@ function App() {
       {/* Body class that will carry /most/ of the information */}
       <body className="App-body">
 
+
+
         <section id='header'>
           <img src={mountainside} className="App-Window-img" alt="img-window" />
           <br></br>
@@ -41,6 +45,8 @@ function App() {
           <br></br>
         </section>
 
+
+
         {/* A container for new information */}
         <section id='curr'>
           {/* <h2>Projects</h2> */}
@@ -48,7 +54,7 @@ function App() {
           <hr></hr>
           <p className='current-paragraph'>
             Currently I am working on a few projects, but my main concern is acquiring the ability to design,
-            and verify various software and hardware components in systems whose primary constituent of a modern computer.
+            and verify various software and hardware components in systems of modern computer and software designs.
             -
           </p>
         </section>
@@ -59,7 +65,7 @@ function App() {
           <hr></hr>
           <p className='previous-paragraph'>
             Previously I have worked on a few projects, but the most notable have involved relatively low level programs,
-            terminal REPLs, and basic API development.
+            terminal REPLs, Single Page Applications, and basic API development.
           </p>
         </section>
 
