@@ -1,5 +1,9 @@
 /* --(background-color) = #282c34; */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: #282c34;
 }
@@ -7,12 +11,15 @@ html {
 .App {
   display: grid;
   text-align: center;
-
 }
 
 .App-logo {
   height: 35px;
   pointer-events: none;
+}
+
+.nav {
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,11 +28,7 @@ html {
   }
 }
 
-.App-header {
-  /* border: #61dafb 2px solid; */
-}
-
-.App-header > ul {
+.container-header > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,7 +37,7 @@ html {
   /* border: greenyellow 2px solid; */
 }
 
-.App-header > ul > li {
+.container-header > ul > li {
   float: left;
   padding-left: 5px;
   padding-right: 5px;
@@ -43,7 +46,7 @@ html {
   /* border: #61dafb 2px solid; */
 }
 
-.App-header > ul > li > a {
+.container-header > ul > li > a {
   display: block;
   color: white;
   text-align: center;
@@ -51,41 +54,39 @@ html {
   text-decoration: none;
 }
 
-.App-body {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 14;
+  flex-wrap: wrap;
 
   color: white;
 }
 
-#curr {
+.curr, .prev{
   display: flex;
+  width: 60%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(2.5px + vmin);
 
+  height: auto;
   color: white;
 }
 
-#prev {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(2.5px + vmin);
-
-  color: white;
+.current-paragraph {
+  /* overflow-wrap: break-word; */
+  text-wrap: balance; 
 }
 
-.App-body > a {
+.container > a {
   font-size: 25px;
 }
 
-.App-header > a {
+.container-header > a {
   font-size: 22px;
 }
 
@@ -97,8 +98,9 @@ html {
 }
 
 hr {
-  width: 100%;
+  width: 70%;
 }
+
 
 #curr {
   width: 50%;
@@ -129,5 +131,6 @@ hr {
 }
 
 footer {
-  padding: 10px;
+  padding: 30px;
+
 }
