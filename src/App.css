@@ -95,6 +95,7 @@ html {
   margin-top: 5%;
   width: 500px;
   height: 300px;
+
 }
 
 hr {
@@ -135,7 +136,7 @@ footer {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .container, .nav {
     flex-direction: column;
   }
