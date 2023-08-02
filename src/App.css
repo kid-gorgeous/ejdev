@@ -1,5 +1,3 @@
-/* --(background-color) = #282c34; */
-
 * {
   box-sizing: border-box;
 }
@@ -33,8 +31,6 @@ html {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
-  /* border: greenyellow 2px solid; */
 }
 
 .container-header > ul > li {
@@ -42,8 +38,6 @@ html {
   padding-left: 5px;
   padding-right: 5px;
   font-size: 21;
-
-  /* border: #61dafb 2px solid; */
 }
 
 .container-header > ul > li > a {
@@ -71,7 +65,6 @@ html {
   align-items: center;
   justify-content: center;
   font-size: calc(2.5px + vmin);
-
   height: auto;
   color: white;
 }

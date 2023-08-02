@@ -5,47 +5,28 @@ import './App.css';
 
 function App() {
   return (
-    
-
     <div className="App">
-      {/* This will need centering lol .. I don't actually want to take the time 
-            to fix this issues just yet. */}
-
       <nav className="container-header">
         <ul>
-          {/* In a future prototype this button will open the navbar */}
           <li><Button variant="image">
             <img src={logo} className="App-logo" alt="logo" />
           </Button>
           </li>
-          {/* These will be encapsulated by the Button until clicked
-                then they will open horizontally right upon click */}
           <li><a href="#curr">#Current</a></li>
           <li><a href="#prev">#Previous</a></li>
-
-
-          {/* <li><a href="engineering-resume.pdf">#Resume</a></li> */}
-          {/* <li><embed src="public/engineering-resume.pdf" width="100%" height="100%"></embed></li> */}
         </ul>
       </nav>
-
-      {/* Body class that will carry /most/ of the information */}
       <body className="container">
         <div className='container-card'>
           <img src={mountainside} className="App-Window-img"
           id="home" alt="img-window" />
           <br></br>
-          {/* This might stay */}
-          {/* This idk, I just needed it to be there for right now */}
           <p className='intro-paragraph'>Hello, I am a part-time developer, and full-time student.
             <br></br> Welcome to my personal profile. 
           </p>
           <br></br>
         </div>
-
-        {/* A container for new information */}
         <div className='container-card'> 
-            {/* <h2>Projects</h2> */}
             <h3>Current focuses</h3>
             <hr></hr>
             <p className='current-paragraph'>
@@ -66,8 +47,6 @@ function App() {
             </p>
             <br></br>
         </div>
-
-        {/* A container for new information */}
         <div className='container-card'>
           <h3>Previous projects</h3>
           <hr></hr>
@@ -83,10 +62,7 @@ function App() {
           </p>
           <br></br>
         </div>
-
-        {/* A footer for the website */}
         <footer>
-          {/* This is the link to my github */}
           <a
             className="App-link"
             href="https://github.com/kid-gorgeous"
@@ -96,10 +72,8 @@ function App() {
             Learn More
           </a>
         </footer>
-
       </body>
     </div>
   );
 }
-
 export default App;
