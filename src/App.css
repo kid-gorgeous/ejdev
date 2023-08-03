@@ -60,7 +60,7 @@ html {
 
 .container-card {
   display: flex;
-  width: 45%;
+  width: 50%;
   flex-direction: column;
   align-items: center;
   justify-content: center;

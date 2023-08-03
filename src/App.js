@@ -14,7 +14,7 @@ function App() {
           </li>
           <li><a href="#curr">#Current</a></li>
           <li><a href="#prev">#Previous</a></li>
-          <li><a href="https://www.trade.ejdev.com">#Trade</a></li>
+          <li><a href="https://trade.ejdev.com">#Trade</a></li>
         </ul>
       </nav>
       <body className="container">
@@ -23,8 +23,7 @@ function App() {
           <img src={mountainside} className="App-Window-img"
           id="home" alt="img-window" />
           <br></br>
-          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-time student.
-            <br></br> Welcome to my personal profile. 
+          <p className='intro-paragraph'>Hello, I am a part-time developer, and full-time student. Welcome to my personal profile. 
           </p>
           <br></br>
         </div>
@@ -32,7 +31,7 @@ function App() {
             <h3>Current focuses</h3>
             <hr></hr>
             <p className='current-paragraph'>
-              Currently I am working on a few projects, but my main concern is acquiring the ability to design, and verify various software and hardware 
+              Currently my main concern is acquiring the ability to design, and verify various software and hardware 
               components in systems of modern computer and software designs.
               <br></br>
               <br></br>
