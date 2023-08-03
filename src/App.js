@@ -14,7 +14,7 @@ function App() {
           </li>
           <li><a href="#curr">#Current</a></li>
           <li><a href="#prev">#Previous</a></li>
-          <li><a href="https://trade.ejdev.com">#Trade</a></li>
+          <li><a href="https://www.trade.ejdev.com">#Trade</a></li>
         </ul>
       </nav>
       <body className="container">
