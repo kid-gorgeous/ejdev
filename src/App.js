@@ -14,10 +14,12 @@ function App() {
           </li>
           <li><a href="#curr">#Current</a></li>
           <li><a href="#prev">#Previous</a></li>
+          <li><a href="trade.ejdev.com">#Trade</a></li>
         </ul>
       </nav>
       <body className="container">
         <div className='container-card'>
+          <h1>Evan Julius</h1>
           <img src={mountainside} className="App-Window-img"
           id="home" alt="img-window" />
           <br></br>
