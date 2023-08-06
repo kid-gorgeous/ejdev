@@ -6,5 +6,12 @@
         {
             "path": ".."
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "webpage",
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.autopep8"
+        },
+        "python.formatting.provider": "none"
+    }
 }
